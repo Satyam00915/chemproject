@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-blue-purple-vertical-stripes-frosted-simple-atmospheric-background-image_70163.jpg");
+    background-size: cover;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: aqua; /* Change the text color on hover */
+}
+
+section {
+    padding: 40px;
+}
+
+/* Style for the main heading */
+.main-heading {
+    text-align: center;
+    font-size: 36px;
+    color: #333; /* You can choose your preferred text color */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.content-container p {
+    flex: 1; /* Allow the text to take up remaining space */
+}
+
+.content-container img {
+    max-width: 50%; /* Adjust the width of the image as needed */
+    margin-left: 20px; /* Add some spacing between the text and the image */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+aside{
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: rgb(188, 203, 18), 0.803), 187, 69);
+}
+.content{
+    background-color: rgba(133, 123, 123, 0.8);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+}
+.header{
+    background-color: rgba(137, 178, 92, 0.8);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 45px;
+}
+img {
+    transition: border 0.5s ease; /* Add transition for the 'border' property */
+    border-radius: 10px;
+}
+
+img:hover {
+    border: 10px solid aqua; /* Adjust the border style on hover */
+}
+/* Add or modify this CSS to your existing styles */
+
+.case-study {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: space-between; /* Add space between the items */
+    align-items: center; /* Center items vertically */
+}
+
+.case-image {
+    width: 400px;
+    border: 3px solid transparent; /* Initial border style */
+    transition: border 0.3s ease; /* Add transition for the 'border' property */
+}
+
+.case-image:hover {
+    border: 3px solid aqua; /* Adjust the border style on hover */
+}
+
+.case-description {
+    margin-top: 10px;
+    font-style: italic;
+    flex: 1; /* Allow the text to take up remaining space */
+    text-align: center; /* Center text within the available space */
+}
